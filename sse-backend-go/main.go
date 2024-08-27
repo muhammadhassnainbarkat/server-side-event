@@ -78,6 +78,7 @@ func subscribe(w http.ResponseWriter, r *http.Request) {
 
 func unsubscribe(w http.ResponseWriter, r *http.Request) {
 	clientId := r.URL.Query().Get("clientId")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
 	if clientId == "" {
 		http.Error(w, "Client id is required", http.StatusBadRequest)
 		return
