@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/server-side-event.iml" filepath="$PROJECT_DIR$/server-side-event.iml" />
       <module fileurl="file://$PROJECT_DIR$/sse-backend-go.iml" filepath="$PROJECT_DIR$/sse-backend-go.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sse-backend-python/sse-backend-python.iml" filepath="$PROJECT_DIR$/sse-backend-python/sse-backend-python.iml" />
       <module fileurl="file://$PROJECT_DIR$/sse-frontend-vue.iml" filepath="$PROJECT_DIR$/sse-frontend-vue.iml" />
     </modules>
   </component>
